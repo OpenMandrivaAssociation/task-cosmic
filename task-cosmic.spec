@@ -26,7 +26,7 @@ Summary:	A very minimal COSMIC desktop
 Group:		Graphical desktop/COSMIC
 
 Requires: cosmic-settings-daemon
-Requires: cosmic-app-library
+Requires: cosmic-applibrary
 # From cosmic-applet
 Requires: cosmic-applet-app-list
 Requires: cosmic-applet-audio
@@ -61,10 +61,14 @@ Requires: cosmic-settings
 Requires: xdg-desktop-portal-cosmic
 Requires: cosmic-term
 Requires: cosmic-screenshot
-Requires: cosmic-greeter
 Requires: cosmic-store
 Requires: pop-launcher
 Requires: cosmic-wallpapers
+
+# We should use just greetd+cosmic+greeter but for some reason it boot to command line, instead to GUI. So for now force sane GDM.
+Requires: greetd
+Requires: cosmic-greeter
+Requires: gdm
 
 # TBC
 # cosmic-player

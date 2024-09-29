@@ -14,7 +14,7 @@ Requires: cosmic-ext-tweaks
 # Other non branded with COSMIC
 Recommends: file-roller
 Recommends: firefox
-Recommedns: clapper
+Recommends: clapper
 
 
 %description

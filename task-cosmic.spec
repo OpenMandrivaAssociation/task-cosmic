@@ -1,6 +1,6 @@
 Summary:	Metapackage for COSMIC desktop environment
 Name:		task-cosmic
-Version:	1.0.0+alpha2
+Version:	1.0.0+alpha3
 Release:	1
 Group:		Graphical desktop/COSMIC
 License:	GPLv2+
@@ -48,6 +48,7 @@ Requires: cosmic-bg
 Requires: cosmic-comp
 Requires: pop-icon-theme
 Requires: cosmic-icons
+Requires: cosmic-idle
 Requires: cosmic-files
 Requires: cosmic-edit
 Requires: cosmic-launcher

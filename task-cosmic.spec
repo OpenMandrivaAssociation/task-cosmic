@@ -1,6 +1,6 @@
 Summary:	Metapackage for COSMIC desktop environment
 Name:		task-cosmic
-Version:	1.0.0+alpha3
+Version:	1.0.0+alpha4
 Release:	1
 Group:		Graphical desktop/COSMIC
 License:	GPLv2+
@@ -28,6 +28,7 @@ Group:		Graphical desktop/COSMIC
 Requires: cosmic-settings-daemon
 Requires: cosmic-applibrary
 # From cosmic-applet
+Requires: cosmic-applet-a11y
 Requires: cosmic-applet-app-list
 Requires: cosmic-applet-audio
 Requires: cosmic-applet-battery

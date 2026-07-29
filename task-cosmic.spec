@@ -1,6 +1,6 @@
 Summary:	Metapackage for COSMIC desktop environment
 Name:		task-cosmic
-Version:	1.0.0+alpha7
+Version:	1.2.0
 Release:	1
 Group:		Graphical desktop/COSMIC
 License:	GPLv2+
@@ -65,6 +65,7 @@ Requires: cosmic-term
 Requires: cosmic-screenshot
 Requires: cosmic-store
 Requires: pop-launcher
+Requires: cosmic-monitor
 Requires: cosmic-wallpapers
 
 # We should use just greetd+cosmic+greeter but for some reason it boot to command line, instead to GUI. So for now force sane GDM.

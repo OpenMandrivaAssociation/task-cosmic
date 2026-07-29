@@ -8,7 +8,8 @@ BuildArch:	noarch
 
 Requires:	%{name}-minimal
 
-Requires: cosmic-ext-tweaks
+# need update
+#Requires: cosmic-ext-tweaks
 
 
 # Other non branded with COSMIC

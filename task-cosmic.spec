@@ -1,6 +1,6 @@
 Summary:	Metapackage for COSMIC desktop environment
 Name:		task-cosmic
-Version:	1.5.0
+Version:	1.7.0
 Release:	1
 Group:		Graphical desktop/COSMIC
 License:	GPLv2+
@@ -9,7 +9,7 @@ BuildArch:	noarch
 Requires:	%{name}-minimal
 
 # need update
-#Requires: cosmic-ext-tweaks
+Recommends: cosmic-ext-tweaks
 
 
 # Other non branded with COSMIC

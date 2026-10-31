@@ -1,6 +1,6 @@
 Summary:	Metapackage for COSMIC desktop environment
 Name:		task-cosmic
-Version:	1.7.0
+Version:	1.11.0
 Release:	1
 Group:		Graphical desktop/COSMIC
 License:	GPLv2+
@@ -39,6 +39,7 @@ Requires: cosmic-applet-launcher-button
 Requires: cosmic-applet-minimize
 Requires: cosmic-applet-network
 Requires: cosmic-applet-notifications
+Requires: cosmic-applet-osk
 Requires: cosmic-applet-panel-button
 Requires: cosmic-applet-power
 Requires: cosmic-applet-status-area
@@ -70,6 +71,8 @@ Requires: cosmic-monitor
 Requires: cosmic-wallpapers
 Requires: cosmic-player
 Requires: cosmic-sound-theme
+Requires: cosmic-osk
+Requires: cosmic-viewer
 
 # We should use just greetd+cosmic+greeter but for some reason it boot to command line, instead to GUI. So for now force sane GDM.
 Requires: greetd
